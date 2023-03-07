@@ -1,0 +1,6 @@
+yarn create next-app backend
+yarn add prisma -D
+yarn prisma init
+yarn add @prisma/client
+yarn prisma migrate dev
+yarn prisma generate
